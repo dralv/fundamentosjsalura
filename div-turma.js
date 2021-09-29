@@ -2,7 +2,7 @@ const nomes = [' João', ' Juliana', ' Ana', ' Mateus', ' Carlos', ' Andre', ' P
 
 console.log("A turma tem " + nomes.length + " alunos");
 
-const sala1 = nomes.slice(0,nomes.length/2);
+const sala1 = nomes.slice(0,nomes.length/2); // (inicio, final)
 
 const sala2 = nomes.slice(nomes.length/2);
 
